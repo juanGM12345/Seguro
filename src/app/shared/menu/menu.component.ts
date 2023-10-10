@@ -8,6 +8,7 @@ import { Component, ElementRef, HostListener, Input, OnInit, ViewChild, ViewChil
 export class MenuComponent implements OnInit{
   scroll:boolean=false;
   show=false;
+  view=false;
   constructor() { }
 
   ngOnInit() {
@@ -24,5 +25,13 @@ export class MenuComponent implements OnInit{
       this.scroll=false;
       this.show=false;
     }
+}
+viewOptions(){
+  if(this.view==false){
+    this.view=true;
+  }
+  else{
+    this.view=false;
+  }
 }
 }
