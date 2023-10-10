@@ -1,0 +1,48 @@
+.footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+}
+.item_section{
+    width: 20%;
+    margin: auto;
+}
+.bar_content{
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+.logo_footer{
+    width: 20%;
+    font-weight: 600;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    margin: auto;
+    margin-left: 0px;
+    padding: 16px 0px;
+}
+.ico_social{
+    width: 40px;
+    margin:16px 8px;
+}
+@media screen and (min-width: 750px) and (max-width: 900px) {
+    .item_section,.logo_footer{
+        width: 250px;
+        margin-left: auto;
+    }
+}
+@media screen and (min-width: 537px) and (max-width: 749px) {
+    .item_section,.logo_footer{
+        width: 80%;
+        margin-left: auto;
+    }
+}
+@media screen and (min-width: 200px) and (max-width: 536px) {
+    .item_section,.logo_footer{
+        width: 90%;
+        text-align: center;
+        margin-left: auto;
+    }
+}

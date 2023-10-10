@@ -1,0 +1,174 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background: white;
+}
+html {
+    scroll-behavior: smooth;
+  }
+$white_900 : white;
+$white_600 : #ffffffcd;
+$grey : #f4f4f4;
+$grey_900:#686868;
+
+/*
+Colores
+*/
+.background_white{
+    background: $white_900;
+}
+.background_grey{
+    background: $grey;
+}
+.background_black{
+    background: black;
+}
+.color_white_600{
+    color: $white_600;
+}
+.color_white_900{
+    color: $white_900;
+}
+.color_black{
+    color: black;
+}
+.color_grey{
+    color: $grey;
+}
+.color_grey_900{
+    color: $grey_900;
+}
+/*
+Textos
+*/
+.title_montserrat{
+    font-weight: 600;
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding: 16px 0px;
+}
+
+/*
+Botones
+*/
+.text_montserrat{
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px;
+}
+
+.logo{
+    width: 100%;
+    font-weight: 600;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+}
+
+/*
+Botones
+*/
+.btn_option_shared{
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 1rem;
+    margin: auto 5px;
+    padding: 0px;
+}
+.btn_black{
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 1rem;
+    margin: auto;
+    background: black;
+    border: none;
+    padding: 8px;
+
+}
+/*
+header
+*/
+.content_header{
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sub_content_header{
+    width: 80%;
+    height: 100%;
+    transition: all .5s;
+}
+.content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px 0px;
+}
+
+/*
+contenedor text
+*/
+.content_text_header{
+    width: 80%;
+    margin: auto;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+.content_text{
+    min-width: 300px;
+    max-width: 500px;
+    margin: auto;
+    font-weight: 500;
+    padding: 10px 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+/*
+conenedor de cards
+*/
+.content_cards{
+    width: auto;
+    margin: auto;
+    padding: 30px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.item_card{
+    width: 250px;
+    height: auto;
+    float: left;
+    padding: 36px 16px;
+    margin:10px 5px;
+    border-radius: 3px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.padding_x{
+    padding: 0px 16px;
+}
+.padding_y{
+    padding: 8px 0px;
+}
+
+@media screen and (min-width:10px) and (max-width:790px) {
+    .content_btn{
+       display: none!important;
+    }
+    .sub_content_header{
+        width: 100%;
+        margin: 0%!important;
+        border-bottom-left-radius: 0px!important;
+    }
+}
+@media screen and (min-width:10px) and (max-width:620px) {
+    .btn_msj{
+        bottom: 2.5%;
+    }
+}

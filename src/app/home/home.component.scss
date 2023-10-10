@@ -1,0 +1,33 @@
+.background_header_content{
+    width: 100%!important;
+    height: 100%;
+    display: flex;
+    margin-left: 0px;
+    background:  rgba(0, 0, 0, 0.7);
+}
+.img_background{
+    background-image: url("../../assets/img_header/header-home-campo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content_btn{
+    position: absolute;
+    width: 20%;
+    height: 65vh;
+    display: flex;
+    z-index: 3;
+}
+.img_bottom{
+    position: absolute;
+}
+.sub_title{
+    font-weight: 600;
+    width: 100%;
+    font-size: 1.3rem;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 16px; 
+    padding-bottom:24px;
+    border-bottom: 1px solid #686868;
+}
